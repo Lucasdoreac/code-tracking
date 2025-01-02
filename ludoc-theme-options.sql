@@ -1,0 +1,12 @@
+-- Opções iniciais do tema Ludoc
+INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES
+('ludoc_theme_options', 'a:12:{s:10:"site_logo";s:0:"";s:12:"primary_color";s:7:"#2563eb";s:14:"secondary_color";s:7:"#1e40af";s:11:"accent_color";s:7:"#3b82f6";s:15:"background_color";s:7:"#ffffff";s:21:"dark_background_color";s:7:"#1f2937";s:15:"dark_text_color";s:7:"#f3f4f6";s:13:"footer_widget1";s:1:"1";s:13:"footer_widget2";s:1:"1";s:13:"footer_widget3";s:1:"1";s:13:"footer_widget4";s:1:"1";s:14:"copyright_text";s:35:"© 2024 Ludoc. Todos direitos reservados.";}', 'yes');
+
+-- Configurações do Google Login
+INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES
+('ludoc_google_client_id', '', 'yes'),
+('ludoc_google_client_secret', '', 'yes');
+
+-- Textos traduzíveis
+INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES
+('ludoc_translations', 'a:10:{s:10:"hero_title";a:2:{s:2:"pt";s:36:"Transforme sua Visão em Realidade Digital";s:2:"en";s:34:"Transform Your Vision into Digital Reality";}s:13:"hero_subtitle";a:2:{s:2:"pt";s:55:"Soluções digitais personalizadas para o sucesso do seu negócio";s:2:"en";s:51:"Custom digital solutions for your business success";}s:15:"hero_cta_primary";a:2:{s:2:"pt";s:11:"Comece Agora";s:2:"en";s:10:"Start Now";}s:17:"hero_cta_secondary";a:2:{s:2:"pt";s:13:"Ver Portfólio";s:2:"en";s:15:"View Portfolio";}s:13:"services_title";a:2:{s:2:"pt";s:15:"Nossos Serviços";s:2:"en";s:12:"Our Services";}s:13:"contact_title";a:2:{s:2:"pt";s:15:"Entre em Contato";s:2:"en";s:10:"Contact Us";}s:12:"footer_about";a:2:{s:2:"pt";s:161:"Somos uma agência digital especializada em criar soluções web personalizadas. Nossa missão é transformar suas ideias em realidade digital com excelência e inovação.";s:2:"en";s:155:"We are a digital agency specialized in creating custom web solutions. Our mission is to transform your ideas into digital reality with excellence and innovation.";}s:14:"footer_address";a:2:{s:2:"pt";s:31:"Rua Example, 123 - São Paulo/SP";s:2:"en";s:31:"Example Street, 123 - São Paulo";}s:12:"footer_phone";a:2:{s:2:"pt";s:15:"+55 11 1234-5678";s:2:"en";s:15:"+55 11 1234-5678";}s:12:"footer_email";a:2:{s:2:"pt";s:19:"contato@exemplo.com";s:2:"en";s:20:"contact@example.com";}}', 'yes');
